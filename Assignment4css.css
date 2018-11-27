@@ -1,0 +1,77 @@
+body {
+/*    background-image: url("wood.png");
+position: absolute;
+background-repeat:no-repeat;
+background-size: cover;*/
+   width: 100%;
+    height: 1000px;
+    /*background-image: url('whitewood.jpg');*/
+    background-size: 100% 100%;
+ }
+
+@font-face {
+    src: url("https://use.typekit.net/fru7jev.css");
+    font-family: rift, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.container {
+	align-items: stretch;
+	width: 80%;
+	height: 80%;
+
+	margin-left:auto; 
+	margin-right:auto;
+
+
+}
+/*
+.overlay{
+display: block;
+	width: 100%;
+	top: 
+	margin-left: auto;
+	margin-right: auto;
+	transition: .1s ease;
+	opacity: 0;
+	background-color: white;
+}*/
+/*.container:hover .overlay {
+	opacity: 1;
+}
+*/
+.butterfly{
+	display:block;
+	top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	/*background-color: red;*/
+}
+
+
+ 
+
+
+
+
+@media (max-width: 800px) {
+
+	.butterfly {
+		position:static!important;
+		margin:3em auto;
+		transform: translate(0%,0%);
+
+	}
+}
+
+
+
+
